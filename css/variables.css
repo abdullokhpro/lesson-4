@@ -1,0 +1,11 @@
+:root {
+    --shrift-color: #000;
+    --background-color: #fff;
+    --dark-mode-color: #000;
+}
+
+.dark {
+    --shrift-color: #fff;
+    --dark-mode-color: yellow;
+    --background-color: #000;
+}

@@ -1,0 +1,18 @@
+#advertisement {
+    padding: 20px;
+}
+
+.advertisemetn__text {
+    max-width: 806px;
+    margin: auto;
+    font-size: 52px;
+    line-height: 58px;
+    font-weight: 400; 
+}
+
+@media screen and (max-width: 768px) {
+   .advertisemetn__text {
+        font-size: 30px;
+        line-height: normal;
+    } 
+}

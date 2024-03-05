@@ -1,0 +1,24 @@
+#explanation {
+    margin-bottom: 80px;
+}
+
+.explanation__box {
+    padding-top: 13px;
+    padding-left: 30px;
+    padding-right: 82px;
+    padding-bottom: 43px;
+    border-radius: 20px;
+    background: rgba(169, 255, 44, 1);
+}
+
+.explanation__description {
+    font-size: 46px;
+    line-height: 51px;
+}
+
+@media screen and (max-width:700px) {
+    .explanation__description {
+        font-size: 30px;
+        line-height: normal;
+    }      
+}
